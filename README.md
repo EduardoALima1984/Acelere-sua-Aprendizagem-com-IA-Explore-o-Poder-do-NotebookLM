@@ -1,49 +1,145 @@
 # Acelere-sua-Aprendizagem-com-IA-Explore-o-Poder-do-NotebookLM
 Desafio bootcamp
-Para este desafio, escolhi elaborar um NotebookLM como um treinador de corrida, elaborando assim im plano de corrida a partir de uma corrida com data e km definida.
-Como fontes de consulta utilizei:
-  Video
-https://www.youtube.com/watch?v=Ev9NJOt5UdQ&pp=ygUhZWxhYm9yYcOnw6NvIGRlIHRyZWlubyBkZSBjb3JyaWRh
-https://www.youtube.com/shorts/0ydzyeQ11ME
-https://www.youtube.com/shorts/gig8rFgtAdo
-https://www.youtube.com/shorts/Pu9sn1R2MTo
-https://www.youtube.com/watch?v=Ka_HclBBgZg&pp=ygUhZWxhYm9yYcOnw6NvIGRlIHRyZWlubyBkZSBjb3JyaWRh
-https://www.youtube.com/watch?v=_cWOn5aEeBM&pp=ygUhZWxhYm9yYcOnw6NvIGRlIHRyZWlubyBkZSBjb3JyaWRh
-https://www.youtube.com/watch?v=MvRL5szTmtI&pp=ygUhZWxhYm9yYcOnw6NvIGRlIHRyZWlubyBkZSBjb3JyaWRh
-https://www.youtube.com/watch?v=wzDc2LrOSlQ&pp=ygUhZWxhYm9yYcOnw6NvIGRlIHRyZWlubyBkZSBjb3JyaWRh
-https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjU1rnd8fKTAxUMqJUCHaI3H9YQwqsBegQINRAB&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DIiwYuZ2-Xl8&usg=AOvVaw0UUnVP9mCrY_wRgIWAIl5V&opi=89978449
-  Texto
-https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjU1rnd8fKTAxUMqJUCHaI3H9YQFnoECCIQAQ&url=https%3A%2F%2Fwww.atletis.com.br%2Fplano-de-treinos-para-corredores&usg=AOvVaw2sdLOcxdb_9uMt4-iOKTOy&opi=89978449
-https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjU1rnd8fKTAxUMqJUCHaI3H9YQFnoECEAQAQ&url=https%3A%2F%2Fwww.olympics.com%2Fpt%2Fnoticias%2Ftreino-de-corrida-conheca-tipos&usg=AOvVaw0BiSTHfE85wE04dFHvbLp1&opi=89978449
-https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjU1rnd8fKTAxUMqJUCHaI3H9YQFnoECEIQAQ&url=https%3A%2F%2Fmedium.com%2F%40B25Corre%2Fmonte-sua-planilha-de-corrida-7d8b08966472&usg=AOvVaw1ZN8LxXU1bUSHWmJXaCeT5&opi=89978449
-https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjU1rnd8fKTAxUMqJUCHaI3H9YQFnoECCEQAQ&url=https%3A%2F%2Fwww.netshoes.com.br%2Fblog%2Fcorrida%2Fpost%2Ftreino-de-corrida-tipos-boas-praticas-e-como-montar-o-seu&usg=AOvVaw2jjK_xJq9D0m2ev_IvmBfj&opi=89978449
-https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjU1rnd8fKTAxUMqJUCHaI3H9YQFnoECB4QAQ&url=https%3A%2F%2Fwww.o2corre.com.br%2Fplanilhas-de-treinos&usg=AOvVaw0DYKTPYuq4DAxd028rY34G&opi=89978449
 
-A Base das fontes utilizadas são de canais de esportes, atletas, professores e grupos de corridas, de forma a dar o máximo de contéudo para consulta, além de alguns sites que realizam planilhas de treinos gratuitas, o que acho importante para atender a necessidade escolhida.
+*Descrição do Projeto
+Este projeto consiste na construção de um NotebookLM com foco em atuar como treinador de corrida personalizado, utilizando IA para gerar planos de treino com base em dados individuais do atleta.
 
-Inclui um texto colado: " Quero que atue como um treinador de corrida profissional, com experiência técnica e profissional para elaboração de um plano de corrida para uma data determinada e uma distancia a ser completada nesse dia.
-Tenha foco em questionar o peso, se a pessoa já corre, qual a distancia máxima que já percorreu, o tempo que levou, se tem problema de saúde ou alguma restrição e o tempo e dias disponível que tem para elaborar o treino."
-esse texto tem como objetivo, verificar a condição física do atleta, restrição de mobilidade ou doença, de modo que possa dar dicas de cuidados e atenção ao elaborar o plano considerando esses fatores importantes. solicitei também que confirme se é um corredor frequente, qual distancia máxima e tempo que já correu, de mod a definir o nível do corredor.
+*Objetivo:
+Criar planos de treino personalizados
+Simular comportamento de um treinador profissional
+Garantir segurança (perguntas obrigatórias antes do plano)
+Testar engenharia de prompts para controle de respostas
+Curadoria de Fontes: 
+Fontes de Video:
+a) LIMIAR DE LACTATO: o treino que te faz evoluir - https://www.youtube.com/watch?v=Ev9NJOt5UdQ
+b) Melhore sua Corrida com Estes 4 Exercícios Educativos! https://www.youtube.com/shorts/gig8rFgtAdo
+c) como começar a correr com uma Planilha de corrida gratuita - https://www.youtube.com/shorts/Pu9sn1R2MTo
 
-O primeiro prompt inserido foi:
-"Irei realizar uma corrida de 5km no dia 26/04/2026, elabore um plano de treino para chegar na corrida em boas condições" com o objetivo de testar se vai realizar as perguntas estabelecida inicialmente
- - O retorno foi positivo, fez os questionamentos solicitados de peso, distancia e tempo que percorreu, e complementando, informou que o prazo é curto, faltam 10 dias e que os plano de treino estariam entrando na fase de recuperação para a corrida.
-Foi retornado as informações solicitadas para que pudesse ter um retorno de um plano, foi possivel receber um plano estruturado, sou corredor a 3 anos, realizo treinos constante e acompanhamento de um treinador, então com base em treinos realizados ao longo desse tempo, tive uma resposta coerente, além de dicas importante de hidratação, de não aumentar o volume de treino na reta final antes da prova, e ainda propós um plano de alimentação pre-prova.
+Foram adicionados mais links como fontes, mas os citados acima são os mais relevantes
 
-Foi solicitado que gerasse o arquivo PDF para poder salvar o qual realizou no estudio *uma observação, ele não gerou um link diretamente, e sim  texto na área do Estúdio, acredit que seja possivel gerar, só precis me habituar melhor na ferramenta para explorar mais essa funcionalidade que  CHATGPT tem de gerar arquivos para download.
+Fonte Texto:
+a) Atletis Blog: https://www.atletis.com.br/plano-de-treinos-para-corredores
+b) Site Olympics.com: https://www.olympics.com/pt/noticias/treino-de-corrida-conheca-tipos
+c) O2 corre, Planilha de treino: https://www.o2corre.com.br/planilhas-de-treinos/
 
-Como segundo texto, solicitei que fizesse agora um plano de treino para dia 26/10/2026.
-me retornou com um plano mais corrido, bem mais generico que o esperado, mas ao mesmo tempo claro
-Solicitei que detalhasse, precisei dar maiores detalhes, do que eu realmente eu precisava ficando o prompt: "quero detalhes, está generico demais, quer saber quanto correr, quero informações detalhadas por dia e não uma visão generica como passou, quero detalhe, quanto correr por dia de tempo, ritmo, esses detalhes" o que atendeu minha expectativa, com realmente detalhe do que deve ser feito, cmo o tempo de aquecimento, o objetivo do treino seja realizar alguns tiros e distancia dos tiros e repetições e o tempo de edsacelaração para terminar o treino, bem estruturado com os dias que tenho disponivel para treinar contemplando os meses até a prova e informando a progressão de distancia e aumento de tiros ao longo desse periodo.
-Semelhantes a treinos que já realizei para preparação de provas.
-Detalhe interessante que eu possuo peso alto, 110kg, ele reforça bastante esse ponto passando orientações para evitar lesões como  modo de realizar a pisada, inclinação do tronco.
+Fonte Texto Colado:
+a) texto colado: " Quero que atue como um treinador de corrida profissional, com experiência técnica e profissional para elaboração de um plano de corrida para uma data determinada e uma distancia a ser completada nesse dia. Tenha foco em questionar o peso, se a pessoa já corre, qual a distancia máxima que já percorreu, o tempo que levou, se tem problema de saúde ou alguma restrição e o tempo e dias disponível que tem para elaborar o treino."
+b) Sempre que um novo corredor solicitar um plano, precisa obrigatoriamente solicitar as perguntas passada já anteriormente para a elaboração do plano. não emita de forma nenhuma o plano ou comentários sem ter todas as informações, de modo que seu retorno do plano seja focado no atleta a correr.  caso ainda fique faltando alguma resposta, solicite que seja respondido as perguntas pendentes e aguarde as respostas. somente com todas as respostas, sem exceção você pode responder com o plano de treino.
 
-Agora, utilizarei a pesquisa interna do Notebook LM para complementar as fontes e verificar os resultados:
-inclui uma nova frase de texto: " Se atente que conforme passado que para estabelecer um plano de treino você realiza umas perguntas previas, sempre que for passado, sempre que um novo corredor solicitar um plano, precisa obrigatoriamente solicitar as perguntas passada já. não emita nenhum plano ou comentários sem essas informações, de modo que seu retorno do plano seja focado no atleta a correr. necessário ter todas as informações das perguntas que irá fazer, caso não tenha solicite a informação pendente, somente ao ter todas as respostas, você irá passar o plano e dicas e comentários. " de modo a resetar os planos para cada corredor novo e uma restrição que só começe a passar um plano depois de ter as informações
-Prompt de teste com as novas fontes e orientações:
-"um novo atleta irá correr também no dia 26/04 5km, monte um plano para ele"
-Tivemos o resultado do reset do atleta, solicitando novamente as perguntas de segurança.
-Testei a resposta: " o peso dele é de 56kg, não corre regularmente e a distancia máxima foi 5km em 1h andando"
-Ele retornou que o atleta ainda devia ter todas as perguntas respondidas, mas fez um plano mesmo considerando que o usuário é saudável e sem restrição, o que não é o intuito. será refeito o texto novamente para que não seja passado nenhum plano sem as informações
-Novo texto colado " Sempre que um novo corredor solicitar um plano, precisa obrigatoriamente solicitar as perguntas passada já anteriormente para a elaboração do plano. não emita de forma nenhuma o plano ou comentários sem ter todas as informações, de modo que seu retorno do plano seja focado no atleta a correr.  caso ainda fique faltando alguma resposta, solicite que seja respondido as perguntas pendentes e aguarde as respostas. somente com todas as respostas, sem exceção você pode responder com o plano de treino.
-A nova orientação surtiu o efeito desejado e ao realizar o prompt de um novo atleta, e responder as perguntas iniciais parcialmente, não emitiu um plano de treino.
+*Critério de seleção
+  a)Conteúdo técnico confiável
+  b)Experiência prática de atletas
+  c)Materiais com aplicação real
+
+* Engenharia de Prompts e “Cicatrizes”
+Prompt 1 (Teste inicial)
+"Irei realizar uma corrida de 5km no dia 26/04/2026, elabore um plano de treino para chegar na corrida em boas condições"
+
+Resultado:
+✔ Fez perguntas corretamente conforme Texto colado
+✔ Identificou curto prazo
+✔ Gerou plano coerente
+
+Problema identificado:
+Não conseguiu distinguir um corredor de outro e manteve o plano com base no primeiro corredor,
+
+Solução: Incluir um novo texto colado com reset de atleta
+
+Prompt 2 (correção para plano de um novo atleta)
+" um novo atleta irá correr também no dia 26/04 5km, monte um plano para ele"
+
+Resultado:
+✔ Resetou o atleta
+✔ Realizou as perguntas novamente
+✔ Gerou o plano coerente
+
+Problema identificado:
+Retornou com plano de treino, mesmo sem saber todas as informações necessárias estabelecidas
+
+Solução:
+Revisão do reset do atleta, com um texto revisado passando que é vetado passar um plano de treino sem ter todas as informações por completo"
+
+Prompt 3  (regra do bloqueio de emitir o plano sem ter todas as informações)
+
+Resultado:
+✔ Resetou o atleta
+✔ Realizou as perguntas novamente
+✔ não respondeu sem ter todas as perguntas chaves respondidas
+✔ Gerou o plano coerente
+
+Miniguia de Estudo (Entrega Final)
+Resumo estruturado:
+O treino de corrida deve ser organizado considerando o perfil de cada atleta, desde sua saúde, restrição de mobilidade, peso, se é um atrela iniciante ou avançado, de modo a evitar lesões ou afastamento
+Tipos de treinos:
+- Treino contínuo: corrida realizada num ritmo constante para aumento de resistencia
+- Treino Intervalado (tiro): treina intervalado definido normalmente por uma distancia em ritmo alto e um intervalor de tempo para recuperação, corrida realizada para aumento do VO2
+- Treino Regenerativo: Corrida em ritmo leve para recuperação muscular
+- Longão: corrida de maior distância, focada na adaptação física e mental
+
+Princiípios fundamentais:
+- Progressão de Carga - aumento gradual do volume e intensidade do treino
+- Especificidade: Treino destinado ao objetivo da prova a ser realizada
+- Recuperação: Descanso para não perder o desempenho por sobrecarga
+- Individualidade: Cada Atleta responde de forma diferente
+
+Estratégias pré-prova
+-Redução do volume de treino (tapering)
+-Manutenção da intensidade
+-Foco em descanso e alimentação
+-Hidratação adequada
+
+ Glossário ed Termos:
+- Pace: ritmo de corrida (tempo por km)
+- Tiros: treinos curtos em alta intensidade
+- Volume: quantidade total de treino (km ou tempo)
+- Periodização: organização do treino ao longo do tempo
+- Tapering: redução do treino antes da prova
+- Zona de esforço: intensidade do treino (leve, moderado, intenso)
+
+Prompt Reutilizáveis:
+1 - Coleta de dados do Atleta
+Quero que atue como um treinador de corrida profissional. Antes de montar qualquer plano, faça perguntas obrigatórias para entender o perfil do atleta, incluindo:
+- Peso
+- Experiência com corrida
+- Distância máxima já percorrida
+- Tempo médio
+- Restrições de saúde ou lesões
+- Disponibilidade semanal de treinos
+
+Não gere nenhum plano até que todas as informações sejam respondidas.
+
+2- Geração do plano de treino
+Com base nas informações fornecidas, elabore um plano de treino detalhado até a data da prova. Inclua:
+- Treinos por dia da semana
+- Tempo ou distância de cada treino
+- Tipo de treino (leve, tiro, longo, etc.)
+- Ritmo sugerido
+- Tempo de aquecimento e desaquecimento
+- Progressão ao longo das semanas
+
+3 - Refinamento do plano
+O plano está muito genérico. Quero um detalhamento completo por dia, incluindo:
+- Distância exata ou tempo
+- Ritmo (pace)
+- Estrutura do treino (ex: tiros, descanso, recuperação)
+- Objetivo de cada treino
+
+4 – Regra de validação (segurança)
+Não gere nenhum plano de treino sem ter todas as informações do atleta. Caso falte alguma resposta, solicite explicitamente os dados pendentes e aguarde. Só continue após todas as informações serem fornecidas.
+
+5 - Novo Atleta
+Considere que este é um novo atleta. Reinicie completamente a coleta de informações e não utilize dados anteriores. Siga todas as regras de validação antes de montar o plano.
+
+Lições aprendidas
+- A IA gera as respostas mesmo sem todas as variaveis respondidas, sem restrições claras, isso pode gerar planos ineficientes
+- Prompts inicias tendem a gerar respostas genéricas
+- Com interações constante é possivel refinar a qualidade das respostas
+- Regras explicitas  (não gerar planos sem dados) teve o retorno desajado não alcançado com regras não tão explicitas
+- Regras não tão explicitas, principalmente relacionado a informações obrigatórias pode levar a IA a responder , isso exige um ajuste mais rígidos para os próximos desenvolvimentos.
+
+Resultado Final:
+Com a estrutura de prompts definida consegui criar um sistema que:
+- Simula um treinador de corrida
+- Personaliza planos de acordo com o atleta
+- Evita respostas genpericas
+- Garante maior segurança nas recomnedações de acordo com o perfil e caractéristicas de cada atleta.
