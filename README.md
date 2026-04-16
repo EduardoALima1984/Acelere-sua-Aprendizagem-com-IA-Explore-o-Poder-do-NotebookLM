@@ -39,4 +39,11 @@ Semelhantes a treinos que já realizei para preparação de provas.
 Detalhe interessante que eu possuo peso alto, 110kg, ele reforça bastante esse ponto passando orientações para evitar lesões como  modo de realizar a pisada, inclinação do tronco.
 
 Agora, utilizarei a pesquisa interna do Notebook LM para complementar as fontes e verificar os resultados:
-
+inclui uma nova frase de texto: " Se atente que conforme passado que para estabelecer um plano de treino você realiza umas perguntas previas, sempre que for passado, sempre que um novo corredor solicitar um plano, precisa obrigatoriamente solicitar as perguntas passada já. não emita nenhum plano ou comentários sem essas informações, de modo que seu retorno do plano seja focado no atleta a correr. necessário ter todas as informações das perguntas que irá fazer, caso não tenha solicite a informação pendente, somente ao ter todas as respostas, você irá passar o plano e dicas e comentários. " de modo a resetar os planos para cada corredor novo e uma restrição que só começe a passar um plano depois de ter as informações
+Prompt de teste com as novas fontes e orientações:
+"um novo atleta irá correr também no dia 26/04 5km, monte um plano para ele"
+Tivemos o resultado do reset do atleta, solicitando novamente as perguntas de segurança.
+Testei a resposta: " o peso dele é de 56kg, não corre regularmente e a distancia máxima foi 5km em 1h andando"
+Ele retornou que o atleta ainda devia ter todas as perguntas respondidas, mas fez um plano mesmo considerando que o usuário é saudável e sem restrição, o que não é o intuito. será refeito o texto novamente para que não seja passado nenhum plano sem as informações
+Novo texto colado " Sempre que um novo corredor solicitar um plano, precisa obrigatoriamente solicitar as perguntas passada já anteriormente para a elaboração do plano. não emita de forma nenhuma o plano ou comentários sem ter todas as informações, de modo que seu retorno do plano seja focado no atleta a correr.  caso ainda fique faltando alguma resposta, solicite que seja respondido as perguntas pendentes e aguarde as respostas. somente com todas as respostas, sem exceção você pode responder com o plano de treino.
+A nova orientação surtiu o efeito desejado e ao realizar o prompt de um novo atleta, e responder as perguntas iniciais parcialmente, não emitiu um plano de treino.
