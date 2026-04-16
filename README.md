@@ -33,4 +33,10 @@ Foi retornado as informações solicitadas para que pudesse ter um retorno de um
 Foi solicitado que gerasse o arquivo PDF para poder salvar o qual realizou no estudio *uma observação, ele não gerou um link diretamente, e sim  texto na área do Estúdio, acredit que seja possivel gerar, só precis me habituar melhor na ferramenta para explorar mais essa funcionalidade que  CHATGPT tem de gerar arquivos para download.
 
 Como segundo texto, solicitei que fizesse agora um plano de treino para dia 26/10/2026.
+me retornou com um plano mais corrido, bem mais generico que o esperado, mas ao mesmo tempo claro
+Solicitei que detalhasse, precisei dar maiores detalhes, do que eu realmente eu precisava ficando o prompt: "quero detalhes, está generico demais, quer saber quanto correr, quero informações detalhadas por dia e não uma visão generica como passou, quero detalhe, quanto correr por dia de tempo, ritmo, esses detalhes" o que atendeu minha expectativa, com realmente detalhe do que deve ser feito, cmo o tempo de aquecimento, o objetivo do treino seja realizar alguns tiros e distancia dos tiros e repetições e o tempo de edsacelaração para terminar o treino, bem estruturado com os dias que tenho disponivel para treinar contemplando os meses até a prova e informando a progressão de distancia e aumento de tiros ao longo desse periodo.
+Semelhantes a treinos que já realizei para preparação de provas.
+Detalhe interessante que eu possuo peso alto, 110kg, ele reforça bastante esse ponto passando orientações para evitar lesões como  modo de realizar a pisada, inclinação do tronco.
+
+Agora, utilizarei a pesquisa interna do Notebook LM para complementar as fontes e verificar os resultados:
 
